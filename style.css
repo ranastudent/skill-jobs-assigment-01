@@ -306,3 +306,31 @@
   .footer-social-location{
       margin-right: 13rem ;
   }
+  .link{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+  }
+  .quick-link{
+      margin: 10px 0px;
+  }
+  .image-boxs{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 10px;
+  }
+  .image-box{
+      height: 85%;
+      width: 60%;
+      background-color: white;
+      align-items: center;
+      justify-content: center;
+      padding-left: 20px;
+      padding-top: 10px;
+  }
+  .image-box img{
+      height: 60px;
+      width: 50px;
+  }
+  .copyright{
+      text-align: center;
+  }

@@ -12,7 +12,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <div class="navbar">
+    <div class="navbar" id="Home">
       <div class="logo">
         <h1>EDGECUT</h1>
       </div>
@@ -31,7 +31,7 @@
     </div>
     <!-- Banner -->
     <div class="banner">
-      <div class="">
+      <div id="Furniture">
         <h1 class="bannerTitle">FOR ALL YOUR FURNITURE NEEDS</h1>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam impedit
@@ -106,7 +106,7 @@
       </div>
     </div>
     <!-- About us -->
-    <div class="about-us">
+    <div class="about-us" id="About">
       <div class="image">
         <img src="./assets/slider-img.png" alt="" />
       </div>
@@ -124,7 +124,7 @@
       <h1>Latest Blog</h1>
     </div>
     <!-- Blog -->
-    <div class="blog">
+    <div class="blog" id="Blog">
       <div class="blog-card">
         <div class="blog-containar">
           <img src="./assets/b1.jpg" alt="blog-card" />
@@ -179,7 +179,7 @@
        </div>
        <!-- form-box -->
        <div class="form">
-            <div>
+            <div id="Contact">
                   <h2>CONTACT US</h2>
                   <form>
                         <label for="name">Full Name</label>
@@ -212,7 +212,17 @@
                               <p class="footer-social">call: +023423423</p>
                         </div>
                   </div>
-                  <div></div>
+                  <div>
+                    <h1 class="quick-link">QUICK LINK</h1>
+                    <div class="link">
+                      <a href="#Home">Home</a>
+                      <a href="#Furniture">Furniture</a>
+                      <a href="#Contact">Contact us</a>
+                      <a href="#About">About</a>
+                      <a href="#Blog">Blog</a>
+                    </div>
+                    
+                  </div>
             </div>
             <div>
                   <div>
@@ -233,9 +243,45 @@
                         <div>
                               <p class="footer-social footer-social-location ">location</p>
                         </div>
+                        
                   </div>
-                  <div></div>
+                  <div>
+                    <h1 class="instagram">INSTAGRAM FEEDS</h1>
+                    <div class="image-boxs">
+                        <div class="image-box">
+                          <img src="./assets/f1.png" alt="">
+                        </div>
+                        <div class="image-box">
+                          <img src="./assets/f2.png" alt="">
+                        </div>
+                        <div class="image-box">
+                          <img src="./assets/f3.png" alt="">
+                        </div>
+                        <div class="image-box">
+                          <img src="./assets/f4.png" alt="">
+                        </div>
+                        <div class="image-box">
+                          <img src="./assets/f5.png" alt="">
+                        </div>
+                        <div class="image-box">
+                          <img src="./assets/f6.png" alt="">
+                        </div>
+                    </div>
+                  </div>
             </div>
+            <div class="inbox">
+              <form action="your-server-endpoint" method="POST">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+            
+        </div>
+        <div>
+          <h1 class="copyright">
+            <i class="fa-solid fa-copyright"></i> all right reserved to EDGECUT
+          </h1>
         </div>
   </body>
 </html>
